@@ -1,47 +1,58 @@
 body {
-
+  color: #05080C;
 }
 
+
 .commonstyles a {
+  color: #05080C;
 
 }
 
 .commonstyles small {
+  color: #05080C;
 }
 
 .commonstyles strong {
-
+  color: #05080C;
 }
 
 .commonstyles h1 {
-
+  color: #05080C;
 }
 
 .commonstyles h2 {
+  color: #05080C;
 }
 
 .commonstyles h3 {
   margin-top: 42px;
+  color: #05080C;
 }
 
 .commonstyles h4 {
   margin-bottom: 0;
+  color: #05080C;
 }
 
 .commonstyles p {
+  font: Georgia;
   margin-top: 0;
   margin-bottom: 27px;
+  color: #05080C;
 }
 
 .commonstyles ul {
   list-style: square;
+  color: #05080C;
 }
 
 .commonstyles ul p {
+  color: #05080C;
 
 }
 
 .commonstyles li {
+  color: #05080C;
 
 }
 
@@ -49,6 +60,7 @@ body {
   border: none;
   border-top: 1px solid #222222;
   margin: 30px 0;
+  color: #05080C;
 }
 
 .commonstyles img {

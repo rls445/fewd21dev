@@ -1,0 +1,166 @@
+body{
+  background-image: url("mistymountain.jpg");
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.commonstyles .yu img{
+  text-align: center;
+
+}
+
+.commonstyles .yu img[alt] {
+  float: right;
+}
+
+.commonstyles h1 {
+  text-transform: uppercase;
+  color: #082F6D;
+  font-family: Futura, arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.commonstyles h2 {
+  color: #082F6D;
+  font-family: Futura, arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.commonstyles h3 {
+  margin-top: 42px;
+  color: #082F6D;
+  font-family: Futura, arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.commonstyles h4 {
+  margin-bottom: 0;
+  color: #082F6D;
+  font-family: Futura, arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.commonstyles p {
+  margin-top: 0;
+  margin-bottom: 27px;
+  color: #05080C;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+
+.commonstyles hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin: 30px 0;
+  color: #05080C;
+  font-family: Futura, arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.commonstyles img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+}
+
+.commonstyles img[alt] {
+  float: right;
+}
+
+.toc {
+  max-width: 300px;
+  float:right;
+  color: #05080C;
+  font-family: Futura, arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+}
+
+.toc .toclevel-1 {
+  color: #05080C;
+  font-family: Futura, arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+
+}
+
+.toc .toclevel-1 > a {
+
+}
+
+.toc .toclevel-2 {
+  color: #05080C;
+  font-family: Futura, arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 20px;
+
+}
+
+.toc .toclevel-2 > a {
+
+}
+
+.datatable th{
+  font-family: Futura, arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.datatable td {
+  padding: 8px 14px;
+  font-family: Futura, arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 20px;
+
+}
+
+.datatable td:first-child{
+  text-transform: uppercase;
+}
+
+.citations ul {
+  margin-top: 0;
+  margin-bottom: 27px;
+  color: #05080C;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 20px;
+
+}
