@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h1{
+	background: red;
+	padding: 15px;
+	border: 5px solid black;
+}
+
+p{
+	color: white;
+	background: blue;
+	padding: 15px;
+	border: 5px solid black;
+}
+
+code{ /*this is an in line element*/
+	color: black;
+	background: white;
+	padding: 2px 5px;
+	border: 1px solid black;
+}
+
+.different code{ /*this is a nested selector,
+	it conflicts withe the background above,
+	but it takes precedent as it's more specific
+	all the other styles in the code style will apply*/
+	background:green;
+}
+
+.sitenav {
+	background:grey;
+	padding:0px;
+	margin:0px;
+}
+
+.sitenav li{
+	display:inline-block;
+}
+.sitenav a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none; /*this is the underline*/
+	padding: 20px;
+    background: red;
+    border-right: 1px solid white;
+}
+
+.sitenav a:focus{
+/*pseudo element, hover, active, focus*/
+	border: 1px dotted black;
+}
+
+

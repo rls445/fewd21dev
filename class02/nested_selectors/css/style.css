@@ -1,0 +1,29 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.4;
+    margin: 3em;
+    color: #888;
+}
+
+em,
+h1 {/*you can share styles btwn elements this way*/
+    color: black;
+}
+
+p {
+    margin: 1.4em 0;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    padding: 0 0 0 .7em;
+    margin: 0;
+}
+
+blockquote p {
+    font-style: italics;
+}
+
+blockquote p em { /*don't go any further than 3 levels deep with your specificity. Apply a class instead*/
+    font-style: normal;
+}
