@@ -67,7 +67,7 @@ body{
 }
 
 .tagline{
-  margin: 100px 0px;
+  margin: 100px 0;
   text-align: center;
   font-weight: 600;
   font-size: 48px;
@@ -75,8 +75,8 @@ body{
 }
 
 .yellowbutton{
-  border: 0px;
-  margin: 0px 350px;
+  border: 0;
+  margin: 0 350px;
   border-radius: 5px;
   font-weight: 800;
   font-size: 28px;
