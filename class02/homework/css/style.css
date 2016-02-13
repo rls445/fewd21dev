@@ -44,13 +44,12 @@ Developer @GA in NYC
 /* should I have used those aligns for something? ^^ */
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .middlecontainer{
   width: 960px;
-  margin-left: 198px;
-  margin-right: 198px;
+  margin: 0 auto;
 }
 
 .pageIntro {
@@ -168,6 +167,7 @@ body{
 
 .pageFooter a{
   color:white;
+  font-size: 46px;
 }
 
 .pageFooter ul{
