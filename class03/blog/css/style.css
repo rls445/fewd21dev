@@ -1,0 +1,175 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+*{
+	box-sizing: border-box; 
+}
+
+
+body{
+	color: #444;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height:1.5;
+}
+
+a{
+	color: #D00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+
+a:hover{
+	color: #A00;
+}
+
+.wrapper{
+	width:1200px;
+	margin: 0 auto;
+}
+
+.main{
+	width:66.66667%;
+	display: block;
+	float:left;
+	box-sizing: none;
+
+}
+
+.menu-main{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-main li{
+	display: inline-block;
+	float: left;
+	width: 16.66%;
+	/*this allows us to put them side by side. 
+	Apply the stye to the A not li because you want
+	the style to apply to the whole button*/
+}
+
+.menu-main a{
+	display: block;
+	color: white;
+	background: black;
+	padding: 15px;
+	border-right: 1px solid white;
+	text-align: center;
+}
+
+.menu-main a:hover{
+	background-color: #900;
+}
+
+.headername {
+	display: inline;
+    margin-right: .5em;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.headername a{
+    text-decoration: none;
+}
+
+.tagline {
+	display: inline;
+	font-size: 30px;
+	color: #444;
+}
+
+.article-date{
+	font-size: 2em;
+	color: #CCC;
+	padding-bottom: 10px;
+}
+
+.articlename{
+	font-weight: 300;
+	margin: 0;
+}
+
+article {
+	display: inline-block;
+	float: left;
+	margin: 30px 30px 0 0; 
+	border-bottom: 1px solid #CCC;
+	padding: 20px 0 20px 0;
+}
+
+article img{
+	max-width:100%;
+}
+
+article p:first-letter{
+	font-size: 6em;
+	float:left;
+	line-height: 1;
+	margin-right: 3px;
+	margin-top: -10px;
+	color: #CCC;
+}
+
+.continue{
+	float:right;
+	font-weight: 600
+
+}
+
+.footernav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footernav li{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	padding: 0 3px 0 3px;
+	border-right: 1px solid #ccc;
+}
+
+.rightrail{
+	display: inline-block;
+	float: right;
+	width:33.3333%;
+}
+
+.rightrail h1{
+	font-size: 20px;
+	font-weight: 600;
+	color: #888;
+	margin-top: 125px;
+
+}
+
+.rightrail p{
+
+}
+
+.rightrail a{
+
+}
+
+.rightrail img{
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+
