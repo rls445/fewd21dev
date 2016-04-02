@@ -1,0 +1,10 @@
+TO DO:
+
+
+>Make Our Team and Projects responsive
+>Hook up form to emial submission (and add confirmation message)
+>Add real links for social 
+>Host
+
+Questions:
+>>How do I make sure imagies load quickly?
